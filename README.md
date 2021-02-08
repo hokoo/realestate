@@ -1,9 +1,12 @@
 ### Окружение
+- WP 5.6
+- PHP 7.4
+
 WP-plugins
 
-1. ACF
-2. WP User Roles
+- ACF
+- WP User Roles
 
 WP mu-plugins
 
-1. wp-posts-to-posts
+- wp-posts-to-posts
