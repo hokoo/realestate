@@ -61,7 +61,7 @@ function res_cpt_real() {
 		'has_archive'           => true,
 		'exclude_from_search'   => false,
 		'publicly_queryable'    => true,
-		'capabilities'          => $capabilities,
+		//'capabilities'          => $capabilities,
 	);
 	register_post_type( 'estate', $args );
 }
@@ -111,7 +111,6 @@ function res_cpt_location() {
 		'description'           => __( 'Города объектов', 'realestate' ),
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'editor', 'thumbnail' ),
-		'taxonomies'            => array( 'est_type' ),
 		'hierarchical'          => false,
 		'public'                => true,
 		'show_ui'               => true,
@@ -124,7 +123,7 @@ function res_cpt_location() {
 		'has_archive'           => true,
 		'exclude_from_search'   => false,
 		'publicly_queryable'    => true,
-		'capabilities'          => $capabilities,
+		//'capabilities'          => $capabilities,
 	);
 	register_post_type( 'location', $args );
 }
