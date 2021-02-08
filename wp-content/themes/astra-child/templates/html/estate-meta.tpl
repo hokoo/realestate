@@ -1,3 +1,4 @@
+<!-- ESTATE META DATA -->
 <div class="estate-metadata">
     [[col]]
     <div class="ast-col-xs-6 metadata">
