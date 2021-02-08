@@ -13,9 +13,6 @@ function real_estate_mf(){
 	}
 
 	echo '<!-- ESTATE META DATA -->';
-//	echo '<pre>';
-//	var_dump( $data );
-//	echo '</pre>';
 	real()->render( 'estate-meta', [
 		$items
 	] );
