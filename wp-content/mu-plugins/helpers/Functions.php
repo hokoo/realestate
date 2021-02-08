@@ -28,4 +28,12 @@ class Functions{
 
 		return $files;
 	}
+
+	function render( $template, $data = [] ){
+		echo Templater::render( self::get_html( $template ), $data );
+	}
+
+	function get_html( $template ){
+		return file_get_contents( locate_template( "templates/html/{$template}.tpl" ) );
+	}
 }
