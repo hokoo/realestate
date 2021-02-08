@@ -1,8 +1,8 @@
 <?php
 
-add_action( 'p2p_init', 'real_o2c' );
+add_action( 'p2p_init', 'real_e2l' );
 
-function real_o2c() {
+function real_e2l() {
 	p2p_register_connection_type( [
 		'name'			=> 'object2city',
 		'from'			=> 'estate',
